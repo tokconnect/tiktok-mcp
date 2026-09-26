@@ -1,0 +1,16 @@
+{
+  "name": "@tokconnect/tiktok-mcp",
+  "version": "1.0.0",
+  "description": "Local MCP connector for TokConnect: TikTok search trends, videos, creators and comments for AI agents.",
+  "type": "module",
+  "bin": {"tokconnect-mcp": "cli.js"},
+  "files": ["cli.js", "connector.js", "README.md", "LICENSE", "server.json"],
+  "engines": {"node": ">=22"},
+  "scripts": {"start": "node cli.js", "test": "node --test connector.test.js"},
+  "dependencies": {"@modelcontextprotocol/sdk": "1.30.1"},
+  "repository": {"type": "git", "url": "https://github.com/tokconnect/tiktok-mcp.git"},
+  "homepage": "https://tokconnect.com",
+  "bugs": {"url": "https://github.com/tokconnect/tiktok-mcp/issues"},
+  "keywords": ["mcp", "tiktok", "tiktok-mcp", "creator-search-insights", "claude", "codex"],
+  "license": "MIT"
+}
